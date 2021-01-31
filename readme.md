@@ -1,8 +1,8 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# State Capitals
+# State Capitols
 
-We're going to create a game to help us memorize the names of the capitals of
+We're going to create a game to help us memorize the names of the capitols of
 all 50 states.
 
 ## Prerequisites
@@ -27,14 +27,14 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 To play the game:
 
-- Your program should prompt the user to identify the capital associated with a
+- Your program should prompt the user to identify the capitol associated with a
   given state.
 - There should be running tallies on the number of correct and incorrect answers
   for each state
 - After getting through all 50 states one time, users should be asked whether or
   not they want to play again.
 
-**Hint:** It can help to make a copy of the `capitals` list that includes only a
+**Hint:** It can help to make a copy of the `capitols` list that includes only a
 few states for testing purposes.
 
 ### Game Requirements
@@ -42,7 +42,7 @@ few states for testing purposes.
 - Make sure the states don't appear in alphabetical order in the prompts. This
   will make the game a bit more challenging for the user.
 - Provide a welcome message to introduce the player to the game.
-- Through all 50 states, prompt the user to name the capital of the state.
+- Through all 50 states, prompt the user to name the capitol of the state.
 - Score whether the user's guess is correct or not.
 - Calculate a overall total score, display a running tally after each prompt
 - Once the user has gone through all 50 states, ask them if they'd like to play
@@ -59,7 +59,7 @@ few states for testing purposes.
 ## Bonus!
 
 - Initialize **new** keys in the dictionaries that store the number of times a
-  user gets a capital `correct` and the number of times the answer is
+  user gets a capitol `correct` and the number of times the answer is
   `incorrect`.
   - If the answer is correct, display a message saying so, and increment the
     `correct` key.
@@ -67,7 +67,7 @@ few states for testing purposes.
     `incorrect` key.
 - If the user plays again, set the order of how the prompts appear to start with
   the ones they got wrong the most often.
-- Add a hint functionality that prints the first 3 letters of a capital
+- Add a hint functionality that prints the first 3 letters of a capitol
 
 ## Plagiarism
 
